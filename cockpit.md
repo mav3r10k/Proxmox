@@ -1,3 +1,6 @@
+#Black MODE
+wget https://raw.githubusercontent.com/Weilbyte/PVEDiscordDark/master/PVEDiscordDark.sh
+bash PVEDiscordDark.sh install
 # install cockpit
 echo "deb http://deb.debian.org/debian buster-backports main" > /etc/apt/sources.list.d/buster-backport.list
 apt update
