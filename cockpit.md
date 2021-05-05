@@ -3,6 +3,11 @@
 wget https://raw.githubusercontent.com/Weilbyte/PVEDiscordDark/master/PVEDiscordDark.sh
 bash PVEDiscordDark.sh install
 
+# sub report off
+
+sudo sed -i.bak "s/data.status !== 'Active'/false/g" /usr/share/javascript/proxmox-widget-toolkit/proxmoxlib.js && sudo systemctl restart pveproxy.service
+
+
 # install cockpit
 
 echo "deb http://deb.debian.org/debian buster-backports main" > /etc/apt/sources.list.d/buster-backport.list
