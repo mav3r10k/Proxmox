@@ -1,4 +1,7 @@
-ZFS offsite Backup auf eine externe Festplatte
+#ZFS offsite Backup auf eine externe Festplatte
+
+https://esc-now.de/_/zfs-offsite-backup-auf-eine-externe-festplatte/?lang=en
+
 Zu einem persönlichen Daten-GAU ist es bestimmt bei jedem schon einmal gekommen. In meinen frühen Jahren musste ich zweimal Datenverluste durch kaputte Festplatten verkraften. Danach folgten sporadische Kopien auf externe Festplatten, mal hier und mal dort ein Backup. Eine unkoordinierte Sammlung an externen Festplatten, gebrannten CDs und DVDs entstand. Zehn Jahre später gab es erste Fehler beim Lesen gebrannter CDs, außerdem wusste ich auch nicht genau was sich wo genau befand. Seit 2015 betreibe ich nun einen kleinen Heimserver mit FreeNAS, den meine Rechner als Zielmedium für ihr automatisiertes Backup nutzen. Außerdem lagern dort meine restlichen Daten. Wenn eine Platte ausfällt ist noch alles im Lot dank des RaidZ2 aber was ist, wenn der Blitz einschlägt, das Haus brennt, jemand beschließt meinen kleinen Server einfach mitzunehmen oder ich einen unsinnigen Befehl auf der Kommandozeile eintippe? Richtig, dann ist alles weg. 
 
 Trotz, dass ich davor tatsächlich panische Angst habe und mir diese Unzulänglichkeit seit Inbetriebnahme der FreeNAS Box bewusst ist, fehlte es bisher an einem richtigen Backup. Warum? Weil der Weg zu einem richtigen Backup doch schon recht steinig ist, wenn man nur über Halbwissen verfügt.
