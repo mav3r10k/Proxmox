@@ -5,3 +5,6 @@ https://rclone.org/
 
 ## laptop?
 https://github.com/AdnanHodzic/auto-cpufreq
+
+## Hardentools
+https://github.com/securitywithoutborders/hardentools
